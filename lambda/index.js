@@ -1,7 +1,7 @@
 'use strict';
 
 const Alexa = require('alexa-sdk');
-const APP_ID = 'REPLACE_WITH_LAMBDA_ARN';  
+const APP_ID = 'REPLACE_WITH_ALEXA_SKILLS_ID';  
 const log = require('lambda-log');
 const https = require('https');
 const welcomeOutput = "Welcome to Alexa microbit. You can ask me to set the LED light to red, green or blue on microbit.";
